@@ -1,0 +1,48 @@
+---
+title: "Proyecto 2 Análisis de Datos | Grupo 3"
+output: p2_AD_G3
+---
+
+```{r}
+#Librerías
+library(useful)
+library(dplyr)
+library(ggplot2)
+library(Metrics) #RMSE
+```
+
+```{r}
+dataset <- read.csv('house_rent_result90.csv')
+summary(dataset)
+head(dataset)
+```
+
+```{r}
+set.seed(10)
+dataset$id <- 1:nrow(dataset) #agregar ID con la enumeración de la fila
+
+#Dividir la data en el 80% para el entrenamiento
+train <- dataset %>%
+  dplyr::sample_frac(0.80)
+
+#El resto del dartaset se utiliza para el test
+test <- dataset %>%
+  dplyr::anti_join(train,by="id")
+
+count(train)
+count(test)
+```
+
+# Experimentos
+
+### Experimento 1
+
+```{r}
+experimento1 <- train %>%
+  lm(formula = Size~Rent)# Pruebas, realizar operaciones entre las columnas del                                dataset
+
+yhat <- predict(experimento1, test)
+
+rmseExp1 <- rmse(yhat,test$Rent)
+rmseExp1
+```
