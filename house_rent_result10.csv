@@ -1,0 +1,469 @@
+"","Posted.On","BHK","Size","Floor","Area.Type","Area.Locality","City","Furnishing.Status","Tenant.Preferred","Bathroom","Point.of.Contact","rownum"
+"20","2022-06-09",2,660,"1 out of 2","Super Area","Behala","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",1
+"21","2022-07-02",2,650,"1 out of 2","Carpet Area","Santoshpur","Kolkata","Unfurnished","Family",1,"Contact Owner",2
+"30","2022-06-25",2,850,"Ground out of 2","Super Area","Rabindra Sarobar Area, Dhakuria","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",3
+"52","2022-06-25",1,450,"2 out of 2","Carpet Area","New Town","Kolkata","Unfurnished","Bachelors",1,"Contact Owner",4
+"68","2022-05-05",2,600,"Ground out of 2","Super Area","Amtala, Diamond Harbour Road","Kolkata","Semi-Furnished","Bachelors/Family",1,"Contact Owner",5
+"74","2022-05-30",2,700,"Ground out of 2","Super Area","Bandel","Kolkata","Unfurnished","Bachelors",1,"Contact Owner",6
+"93","2022-05-15",1,600,"2 out of 4","Super Area","Behala","Kolkata","Furnished","Bachelors/Family",1,"Contact Owner",7
+"103","2022-05-14",3,1450,"Ground out of 1","Super Area","Ajoy Nagar","Kolkata","Unfurnished","Family",2,"Contact Owner",8
+"125","2022-05-10",2,740,"Ground out of 6","Carpet Area","Sonarpur","Kolkata","Unfurnished","Bachelors",1,"Contact Owner",9
+"147","2022-06-05",2,550,"2 out of 3","Super Area","Behala silpara","Kolkata","Furnished","Bachelors/Family",1,"Contact Owner",10
+"170","2022-04-30",4,1300,"1 out of 2","Super Area","Ballygunge","Kolkata","Unfurnished","Bachelors/Family",3,"Contact Owner",11
+"180","2022-07-03",3,1100,"Ground out of 2","Carpet Area","Survey Park","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",12
+"181","2022-06-16",2,800,"Ground out of 2","Carpet Area","Baguiati","Kolkata","Furnished","Bachelors/Family",1,"Contact Owner",13
+"199","2022-04-29",2,900,"Ground out of 1","Super Area","Keshtopur","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",14
+"227","2022-06-20",2,500,"4 out of 5","Carpet Area","Konnagar","Kolkata","Unfurnished","Bachelors",1,"Contact Owner",15
+"231","2022-06-17",1,700,"Ground out of 4","Super Area","Salt Lake City Sector 3","Kolkata","Furnished","Bachelors/Family",1,"Contact Owner",16
+"234","2022-05-06",4,1600,"Ground out of 3","Super Area","Salt Lake City","Kolkata","Unfurnished","Bachelors/Family",3,"Contact Owner",17
+"237","2022-06-04",2,839,"1 out of 3","Super Area","Howrah","Kolkata","Semi-Furnished","Bachelors/Family",2,"Contact Owner",18
+"244","2022-05-23",1,550,"1 out of 2","Super Area","Naktala, Garia","Kolkata","Semi-Furnished","Bachelors/Family",1,"Contact Agent",19
+"252","2022-06-19",2,900,"1 out of 3","Super Area","Tollygunge","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",20
+"267","2022-05-27",3,1400,"Ground out of 2","Carpet Area","Salt Lake City Sector 2","Kolkata","Furnished","Bachelors/Family",2,"Contact Agent",21
+"296","2022-05-14",3,800,"Ground out of 4","Super Area","Brahmapur","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",22
+"297","2022-05-09",2,800,"1 out of 2","Carpet Area","Santoshpur","Kolkata","Unfurnished","Family",2,"Contact Owner",23
+"325","2022-06-10",2,700,"Ground out of 2","Carpet Area","Nungi More","Kolkata","Semi-Furnished","Bachelors/Family",2,"Contact Owner",24
+"326","2022-06-06",3,1200,"Ground out of 2","Carpet Area","Baishnabghata, Garia","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Agent",25
+"327","2022-05-23",2,800,"Ground out of 3","Carpet Area","Santoshpur - EM Bypass","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",26
+"328","2022-06-16",1,300,"Ground out of 1","Carpet Area","Bansdroni","Kolkata","Furnished","Bachelors",1,"Contact Agent",27
+"340","2022-06-01",1,500,"1 out of 2","Super Area","Baranagar","Kolkata","Unfurnished","Bachelors",2,"Contact Owner",28
+"364","2022-06-21",2,700,"2 out of 3","Super Area","Gandhi Colony, Netaji Nagar","Kolkata","Unfurnished","Bachelors",2,"Contact Agent",29
+"367","2022-06-24",2,288,"2 out of 3","Carpet Area","Kasba","Kolkata","Unfurnished","Bachelors",1,"Contact Owner",30
+"368","2022-06-11",2,900,"Ground out of 1","Super Area","Teghoria, Baguiati","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",31
+"383","2022-06-26",2,957,"1 out of 2","Carpet Area","Dasnagar","Kolkata","Furnished","Bachelors",2,"Contact Owner",32
+"388","2022-06-18",2,800,"Ground out of 2","Super Area","Thakurpukur","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",33
+"393","2022-05-23",2,750,"1 out of 2","Carpet Area","Ramchandrapur north","Kolkata","Semi-Furnished","Bachelors/Family",1,"Contact Owner",34
+"410","2022-04-24",2,1000,"Ground out of 1","Super Area","Anandapuri, Barrackpore","Kolkata","Furnished","Bachelors/Family",2,"Contact Owner",35
+"413","2022-06-08",2,900,"Ground out of 3","Super Area","Baguiati","Kolkata","Furnished","Bachelors/Family",1,"Contact Owner",36
+"418","2022-06-30",1,650,"Ground out of 2","Carpet Area","Garia Station, Garia","Kolkata","Furnished","Bachelors/Family",1,"Contact Owner",37
+"423","2022-05-18",1,500,"Ground out of 2","Super Area","Madurdaha, Hussainpur","Kolkata","Furnished","Bachelors/Family",1,"Contact Agent",38
+"429","2022-06-03",2,450,"1 out of 1","Carpet Area","Bisharpara","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",39
+"443","2022-06-26",1,200,"1 out of 3","Super Area","Jodhpur Park","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",40
+"446","2022-05-14",2,1050,"Ground out of 1","Super Area","Baidyabati","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",41
+"451","2022-06-20",1,350,"1 out of 1","Super Area","Behala","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",42
+"460","2022-05-22",3,1200,"1 out of 2","Super Area","Tollygunge","Kolkata","Unfurnished","Bachelors/Family",3,"Contact Owner",43
+"463","2022-05-30",3,120,"2 out of 5","Super Area","CA 150 sector 1 saltlake","Kolkata","Furnished","Bachelors/Family",2,"Contact Owner",44
+"479","2022-06-03",2,1000,"Ground out of 2","Super Area","Jheel Road","Kolkata","Furnished","Bachelors/Family",2,"Contact Owner",45
+"485","2022-05-08",1,300,"1 out of 3","Super Area","Noapara, Addarsha Pally","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",46
+"491","2022-06-30",2,460,"Ground out of 2","Carpet Area","Majarhati","Kolkata","Unfurnished","Bachelors",1,"Contact Owner",47
+"495","2022-06-17",2,400,"2 out of 3","Super Area","Baishnabghata Patuli Township, Patuli","Kolkata","Unfurnished","Bachelors/Family",1,"Contact Owner",48
+"502","2022-06-10",2,900,"1 out of 2","Carpet Area","Bansdroni Mauza, Krishnanagar","Kolkata","Unfurnished","Bachelors/Family",2,"Contact Owner",49
+"526","2022-06-14",2,750,"4 out of 10","Carpet Area","Santacruz West","Mumbai","Furnished","Bachelors/Family",2,"Contact Agent",50
+"544","2022-07-04",5,2308,"17 out of 31","Carpet Area","Runwal Elegante, Andheri West","Mumbai","Furnished","Family",5,"Contact Agent",51
+"556","2022-06-11",1,450,"6 out of 12","Carpet Area","Dheeraj Hill View Tower, Thakur Village, Kandivali East","Mumbai","Furnished","Bachelors/Family",1,"Contact Agent",52
+"577","2022-06-15",1,540,"2 out of 4","Carpet Area","Vile Parle East","Mumbai","Semi-Furnished","Family",2,"Contact Agent",53
+"578","2022-07-07",2,1050,"25 out of 42","Carpet Area","Lodha New Cuffe Parade, Wadala East","Mumbai","Unfurnished","Bachelors/Family",2,"Contact Agent",54
+"580","2022-06-25",4,1600,"53 out of 78","Carpet Area","Trump Tower, Worli","Mumbai","Semi-Furnished","Bachelors/Family",4,"Contact Agent",55
+"619","2022-07-04",3,1150,"10 out of 12","Carpet Area","Chembur East","Mumbai","Unfurnished","Family",3,"Contact Agent",56
+"630","2022-05-28",2,900,"7 out of 15","Carpet Area","Oshiwara","Mumbai","Semi-Furnished","Bachelors",2,"Contact Agent",57
+"634","2022-07-06",3,950,"Upper Basement out of 9","Carpet Area","Tilak Nagar - Harbour Line","Mumbai","Semi-Furnished","Bachelors/Family",3,"Contact Agent",58
+"638","2022-05-26",1,450,"4 out of 8","Carpet Area","Kalina","Mumbai","Unfurnished","Bachelors/Family",1,"Contact Agent",59
+"642","2022-05-14",2,700,"5 out of 8","Carpet Area","MUKTA MAHEK, Thakur Complex","Mumbai","Unfurnished","Family",2,"Contact Agent",60
+"659","2022-06-08",3,1095,"40 out of 75","Carpet Area","Lodha The Park, Worli","Mumbai","Semi-Furnished","Bachelors/Family",3,"Contact Agent",61
+"667","2022-07-04",5,1880,"15 out of 31","Carpet Area","Runwal Elegante, Andheri West","Mumbai","Furnished","Family",5,"Contact Agent",62
+"672","2022-05-14",3,1150,"17 out of 24","Carpet Area","Benzer Tower, Thakur Complex","Mumbai","Semi-Furnished","Family",3,"Contact Agent",63
+"684","2022-06-16",1,270,"1 out of 4","Carpet Area","Mumbai Central","Mumbai","Unfurnished","Bachelors/Family",1,"Contact Agent",64
+"689","2022-06-20",2,1200,"6 out of 11","Super Area","Mount Mary","Mumbai","Furnished","Bachelors/Family",2,"Contact Agent",65
+"711","2022-06-08",3,1600,"18 out of 23","Super Area","Chaitanya Towers, Prabhadevi","Mumbai","Semi-Furnished","Bachelors/Family",5,"Contact Owner",66
+"727","2022-06-20",4,2500,"12 out of 13","Carpet Area","Mount Marry, Bandra West","Mumbai","Semi-Furnished","Bachelors/Family",4,"Contact Agent",67
+"728","2022-06-23",3,2000,"6 out of 7","Carpet Area","Saraswati Sadan, Parel","Mumbai","Furnished","Bachelors/Family",3,"Contact Agent",68
+"756","2022-05-13",1,433,"8 out of 20","Carpet Area","Altavista, Sion Trombay Road","Mumbai","Semi-Furnished","Bachelors/Family",2,"Contact Agent",69
+"795","2022-06-04",1,225,"18 out of 25","Super Area","Worli","Mumbai","Unfurnished","Bachelors/Family",1,"Contact Owner",70
+"800","2022-05-27",2,1500,"15 out of 17","Super Area","Agripada","Mumbai","Furnished","Bachelors/Family",4,"Contact Owner",71
+"805","2022-06-23",3,1325,"3 out of 28","Carpet Area","Challenger Tower, Thakur Village, Kandivali East","Mumbai","Furnished","Bachelors/Family",3,"Contact Agent",72
+"828","2022-05-18",4,3064,"18 out of 45","Carpet Area","Raheja Artesia, Worli","Mumbai","Semi-Furnished","Family",4,"Contact Agent",73
+"834","2022-07-09",3,925,"16 out of 36","Carpet Area","Runwal Greens, Mulund West","Mumbai","Unfurnished","Bachelors",2,"Contact Agent",74
+"841","2022-07-07",2,935,"2 out of 4","Super Area","in Matunga West","Mumbai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",75
+"844","2022-05-14",2,700,"4 out of 6","Carpet Area","Andheri West","Mumbai","Furnished","Bachelors",3,"Contact Agent",76
+"846","2022-07-09",2,750,"1 out of 7","Carpet Area","Santacruz East","Mumbai","Semi-Furnished","Bachelors",2,"Contact Agent",77
+"858","2022-06-03",4,1705,"16 out of 29","Carpet Area","Adani Western Heights, Andheri West","Mumbai","Semi-Furnished","Family",3,"Contact Agent",78
+"872","2022-07-09",3,1350,"1 out of 5","Carpet Area","Anand niwas","Mumbai","Furnished","Bachelors",3,"Contact Agent",79
+"900","2022-07-06",2,985,"7 out of 15","Carpet Area","Chembur Heights, Sindhi Society Chembur","Mumbai","Unfurnished","Bachelors/Family",2,"Contact Agent",80
+"910","2022-07-07",2,583,"10 out of 23","Carpet Area","Oasis, Akurli Nagar","Mumbai","Unfurnished","Family",2,"Contact Agent",81
+"911","2022-06-16",2,475,"8 out of 12","Carpet Area","Goregaon West","Mumbai","Unfurnished","Bachelors",2,"Contact Agent",82
+"922","2022-07-09",3,2750,"53 out of 60","Carpet Area","Lodha World Crest, Lower Parel","Mumbai","Unfurnished","Bachelors/Family",3,"Contact Agent",83
+"927","2022-05-27",2,750,"12 out of 16","Carpet Area","Cosmopolis Tower, Andheri West","Mumbai","Unfurnished","Bachelors/Family",2,"Contact Agent",84
+"945","2022-06-20",1,385,"3 out of 9","Carpet Area","Manibhadra Avenue, Morya Nagar","Mumbai","Unfurnished","Family",1,"Contact Agent",85
+"953","2022-06-24",3,2000,"Upper Basement out of 30","Carpet Area","Flora Heights, Andheri West","Mumbai","Furnished","Family",3,"Contact Agent",86
+"965","2022-06-16",2,650,"2 out of 7","Carpet Area","Kandivali West","Mumbai","Unfurnished","Bachelors",2,"Contact Agent",87
+"981","2022-07-02",2,600,"15 out of 20","Carpet Area","Tilak Nagar - Harbour Line","Mumbai","Unfurnished","Bachelors/Family",2,"Contact Agent",88
+"990","2022-06-07",2,700,"4 out of 7","Carpet Area","Santacruz West","Mumbai","Semi-Furnished","Bachelors",3,"Contact Agent",89
+"994","2022-05-14",2,750,"5 out of 18","Carpet Area","Chembur","Mumbai","Furnished","Bachelors/Family",2,"Contact Agent",90
+"995","2022-05-31",4,1400,"10 out of 25","Carpet Area","Adani Western Heights, Andheri West","Mumbai","Semi-Furnished","Bachelors/Family",3,"Contact Agent",91
+"1002","2022-06-01",4,5000,"4 out of 15","Carpet Area","Juhu","Mumbai","Semi-Furnished","Bachelors/Family",4,"Contact Agent",92
+"1056","2022-06-16",2,890,"45 out of 77","Carpet Area","Lodha The Park, Worli","Mumbai","Semi-Furnished","Family",2,"Contact Agent",93
+"1058","2022-05-27",3,1300,"12 out of 24","Carpet Area","L&T Emerald Isle, Powai","Mumbai","Semi-Furnished","Family",3,"Contact Agent",94
+"1073","2022-05-27",2,650,"15 out of 24","Carpet Area","L&T Emerald Isle, Powai","Mumbai","Semi-Furnished","Family",2,"Contact Agent",95
+"1087","2022-07-09",4,2800,"50 out of 75","Carpet Area","Omkar 1973, Worli","Mumbai","Semi-Furnished","Bachelors/Family",4,"Contact Agent",96
+"1111","2022-06-15",1,500,"8 out of 13","Carpet Area","Mayfair Sonata Greens, Park Site Colony","Mumbai","Furnished","Bachelors/Family",2,"Contact Agent",97
+"1112","2022-05-24",1,550,"2 out of 4","Carpet Area","Mulund West","Mumbai","Unfurnished","Bachelors",1,"Contact Agent",98
+"1118","2022-06-04",3,850,"6 out of 7","Carpet Area","Goregaon West","Mumbai","Unfurnished","Bachelors",3,"Contact Agent",99
+"1132","2022-06-12",2,650,"8 out of 16","Carpet Area","Andheri West","Mumbai","Furnished","Bachelors",2,"Contact Agent",100
+"1143","2022-05-13",3,1100,"16 out of 21","Carpet Area","Auris Serenity, Adarsh Nagar","Mumbai","Unfurnished","Bachelors/Family",4,"Contact Agent",101
+"1151","2022-06-20",2,623,"6 out of 7","Carpet Area","Shreenath nagar, Morya Nagar","Mumbai","Unfurnished","Family",2,"Contact Agent",102
+"1187","2022-04-27",2,882,"10 out of 22","Super Area","DB Ozone, Mira Road","Mumbai","Unfurnished","Bachelors",2,"Contact Owner",103
+"1197","2022-06-04",2,1300,"Upper Basement out of 10","Carpet Area","Khar West","Mumbai","Furnished","Bachelors/Family",2,"Contact Agent",104
+"1209","2022-06-16",3,1092,"60 out of 77","Carpet Area","Lodha The Park, Worli","Mumbai","Semi-Furnished","Family",3,"Contact Agent",105
+"1213","2022-06-18",2,750,"6 out of 16","Carpet Area","lokhandwala residency, Worli","Mumbai","Furnished","Bachelors",2,"Contact Agent",106
+"1224","2022-06-27",2,669,"15 out of 43","Carpet Area","Tulip at Runwal Forests, Kanjurmarg West","Mumbai","Unfurnished","Bachelors",2,"Contact Agent",107
+"1227","2022-05-22",2,725,"Upper Basement out of 16","Carpet Area","Chembur","Mumbai","Unfurnished","Bachelors/Family",2,"Contact Agent",108
+"1256","2022-07-09",3,1500,"15 out of 20","Carpet Area","Purushottam Towers, Dadar West","Mumbai","Furnished","Bachelors/Family",4,"Contact Agent",109
+"1266","2022-06-04",2,600,"4 out of 8","Carpet Area","Vasant Oscar, Mulund West","Mumbai","Furnished","Family",2,"Contact Agent",110
+"1272","2022-06-20",1,480,"5 out of 7","Carpet Area","Seven Bungalows","Mumbai","Furnished","Family",2,"Contact Agent",111
+"1289","2022-07-06",2,888,"5 out of 20","Carpet Area","Shapoorji Pallonji Vicinia, Chandivali","Mumbai","Semi-Furnished","Bachelors/Family",2,"Contact Agent",112
+"1290","2022-05-31",1,490,"Ground out of 8","Super Area","Bhandup East","Mumbai","Unfurnished","Bachelors/Family",1,"Contact Owner",113
+"1312","2022-06-26",1,560,"2 out of 4","Carpet Area","Ghatkopar East","Mumbai","Unfurnished","Bachelors",2,"Contact Agent",114
+"1320","2022-05-31",5,3000,"8 out of 10","Carpet Area","Khar West","Mumbai","Semi-Furnished","Bachelors/Family",5,"Contact Agent",115
+"1332","2022-06-04",1,500,"7 out of 23","Super Area","Powai","Mumbai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",116
+"1349","2022-06-28",2,800,"5 out of 20","Carpet Area","Kanakia Paris, Bandra Kurla Complex","Mumbai","Semi-Furnished","Bachelors/Family",2,"Contact Agent",117
+"1381","2022-07-09",3,1200,"14 out of 35","Carpet Area","Worli","Mumbai","Semi-Furnished","Bachelors/Family",3,"Contact Agent",118
+"1399","2022-06-02",1,225,"7 out of 7","Carpet Area","Ashok Van","Mumbai","Unfurnished","Family",1,"Contact Owner",119
+"1400","2022-06-22",2,1000,"6 out of 10","Carpet Area","Malabar Hill","Mumbai","Furnished","Bachelors/Family",2,"Contact Agent",120
+"1402","2022-06-25",3,1200,"8 out of 14","Carpet Area","Khar West","Mumbai","Furnished","Bachelors/Family",3,"Contact Agent",121
+"1404","2022-05-17",3,920,"14 out of 21","Carpet Area","Safal Twins, Chembur","Mumbai","Unfurnished","Bachelors/Family",3,"Contact Agent",122
+"1405","2022-05-26",2,630,"4 out of 22","Carpet Area","SK Imperial Heights, Mira Road East","Mumbai","Unfurnished","Family",2,"Contact Agent",123
+"1407","2022-06-04",1,450,"1 out of 5","Super Area","Andheri West","Mumbai","Furnished","Bachelors/Family",1,"Contact Owner",124
+"1414","2022-06-27",3,1100,"6 out of 13","Carpet Area","Kurla","Mumbai","Furnished","Bachelors/Family",3,"Contact Agent",125
+"1421","2022-05-27",2,800,"19 out of 20","Carpet Area","Sethia Grandeur, Bandra East","Mumbai","Semi-Furnished","Bachelors",3,"Contact Agent",126
+"1427","2022-07-06",2,660,"Ground out of 6","Carpet Area","Azad Nagar Colaba","Mumbai","Semi-Furnished","Bachelors/Family",2,"Contact Agent",127
+"1431","2022-05-31",2,650,"5 out of 7","Carpet Area","117 Residency, Chembur East","Mumbai","Unfurnished","Bachelors/Family",2,"Contact Agent",128
+"1432","2022-07-09",4,2080,"34 out of 46","Carpet Area","Indiabulls Blu, Worli","Mumbai","Semi-Furnished","Bachelors/Family",5,"Contact Agent",129
+"1447","2022-05-25",3,868,"9 out of 21","Carpet Area","Orchid Suburbia, Bander Pakhadi","Mumbai","Unfurnished","Family",3,"Contact Agent",130
+"1449","2022-04-28",1,540,"2 out of 3","Super Area","in Mahim West","Mumbai","Unfurnished","Bachelors/Family",2,"Contact Owner",131
+"1479","2022-06-17",1,550,"6 out of 10","Carpet Area","Sion East","Mumbai","Unfurnished","Bachelors",2,"Contact Agent",132
+"1492","2022-06-09",2,960,"16 out of 38","Carpet Area","Dosti Ambrosia, Wadala East","Mumbai","Semi-Furnished","Bachelors/Family",2,"Contact Agent",133
+"1498","2022-06-23",2,800,"3 out of 4","Super Area","Nagappa Reddy layout-Dooravani Nagar","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",134
+"1512","2022-05-09",2,700,"1 out of 4","Super Area","Vinayakanagar, Hebbal","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",135
+"1515","2022-06-02",1,600,"2 out of 4","Super Area","C V Raman Nagar","Bangalore","Semi-Furnished","Bachelors",1,"Contact Agent",136
+"1526","2022-06-20",1,450,"Ground out of 3","Super Area","Nelamangala","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",137
+"1527","2022-06-27",2,800,"3 out of 4","Super Area","Yelahanka New Town","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",138
+"1540","2022-06-08",1,600,"3 out of 4","Super Area","Btm Layout Stage 4","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",139
+"1541","2022-05-04",2,800,"2 out of 3","Super Area","Konanakunte","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",140
+"1545","2022-07-06",1,500,"1 out of 4","Carpet Area","Koramangala Block 4","Bangalore","Semi-Furnished","Bachelors",1,"Contact Agent",141
+"1549","2022-06-20",2,1200,"3 out of 4","Super Area","Kalasipalyam, Kalasipalyam","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",142
+"1570","2022-07-04",2,1105,"1 out of 4","Super Area","Electronics City Phase 1, Electronic City","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",143
+"1571","2022-07-04",3,1430,"3 out of 4","Super Area","Subramanyapura","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",144
+"1572","2022-06-20",2,850,"2 out of 4","Super Area","K R Puram","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",145
+"1574","2022-05-23",2,1200,"Ground out of 2","Super Area","Kempapura Agrahara","Bangalore","Unfurnished","Bachelors/Family",2,"Contact Owner",146
+"1592","2022-06-12",2,1130,"Ground out of 4","Super Area","whitefield","Bangalore","Unfurnished","Family",2,"Contact Owner",147
+"1596","2022-05-10",1,600,"Ground out of 3","Super Area","Rajajinagar","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",148
+"1612","2022-06-23",2,700,"1 out of 2","Super Area","Ragavendra Industrial Estate","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",149
+"1674","2022-06-20",1,550,"2 out of 3","Carpet Area","Mahadevapura","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",150
+"1682","2022-05-23",1,500,"2 out of 3","Super Area","Nagarabhavi","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",151
+"1686","2022-05-20",2,900,"3 out of 5","Carpet Area","Kodi Halli","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Agent",152
+"1687","2022-05-20",2,1100,"2 out of 5","Carpet Area","Kodi Halli","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Agent",153
+"1689","2022-06-08",1,600,"2 out of 3","Super Area","Kadugodi","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",154
+"1690","2022-05-31",2,1250,"1 out of 2","Carpet Area","Yeshwantpur","Bangalore","Unfurnished","Bachelors",2,"Contact Owner",155
+"1692","2022-06-04",3,1200,"1 out of 4","Super Area","Vidyaranyapura","Bangalore","Furnished","Bachelors/Family",3,"Contact Owner",156
+"1707","2022-05-11",2,1200,"Ground out of 1","Super Area","Dr.Shivaram Karanth Nagar, Jakkuru","Bangalore","Unfurnished","Bachelors",2,"Contact Owner",157
+"1726","2022-04-30",3,1450,"Ground out of 4","Super Area","Bannerghatta Main Road","Bangalore","Semi-Furnished","Bachelors/Family",3,"Contact Owner",158
+"1754","2022-07-02",2,1100,"Ground out of 2","Carpet Area","Vidyaranyapura","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",159
+"1760","2022-05-24",1,600,"2 out of 2","Super Area","Meenakshi Layout Hosa Road","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",160
+"1762","2022-06-20",1,300,"Ground out of 4","Super Area","Kattigenahalli, Bellary Road","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",161
+"1764","2022-06-04",2,1200,"Ground out of 3","Super Area","Vijayanagar","Bangalore","Unfurnished","Bachelors/Family",2,"Contact Owner",162
+"1821","2022-06-23",1,450,"1 out of 4","Carpet Area","Murugeshpalya, Airport Road","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Agent",163
+"1826","2022-06-27",2,1080,"3 out of 5","Super Area","Hosakerehalli","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",164
+"1830","2022-07-01",3,2110,"3 out of 4","Carpet Area","Richmond Town, Richmond Town","Bangalore","Unfurnished","Bachelors",3,"Contact Agent",165
+"1835","2022-06-08",1,600,"2 out of 4","Super Area","Kudlu","Bangalore","Semi-Furnished","Family",1,"Contact Owner",166
+"1859","2022-06-13",2,1281,"1 out of 5","Super Area","Padmanabha Nagar","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",167
+"1871","2022-05-20",2,1200,"1 out of 2","Super Area","Bhel Layout, Rajarajeshwari Nagar","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",168
+"1883","2022-05-27",3,2200,"2 out of 4","Carpet Area","Hsr Layout Sector 6, HSR Layout","Bangalore","Semi-Furnished","Bachelors",3,"Contact Agent",169
+"1884","2022-07-07",2,1005,"2 out of 5","Carpet Area","Indira Nagar","Bangalore","Semi-Furnished","Bachelors/Family",3,"Contact Agent",170
+"1903","2022-06-16",2,900,"2 out of 4","Super Area","Shivananda Nagar, Vijayanagar","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",171
+"1912","2022-06-29",1,600,"Ground out of 3","Super Area","Maruthi Extesnion, Rajajinagar","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",172
+"1922","2022-06-20",2,1200,"Ground out of 3","Super Area","A Narayanapura, Mahadevapura","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",173
+"1929","2022-04-28",1,600,"3 out of 3","Super Area","Hongasandra","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",174
+"1958","2022-05-23",2,700,"2 out of 6","Super Area","Varthur","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",175
+"1959","2022-05-27",2,1110,"1 out of 2","Carpet Area","Subramanyapura","Bangalore","Unfurnished","Bachelors",2,"Contact Owner",176
+"1968","2022-07-05",3,1500,"1 out of 1","Super Area","Ulsoor Road","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",177
+"2006","2022-07-04",2,800,"1 out of 4","Super Area","whitefield","Bangalore","Unfurnished","Bachelors/Family",2,"Contact Owner",178
+"2010","2022-05-30",2,900,"1 out of 4","Super Area","Seetharampalya, Hoodi","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",179
+"2017","2022-06-24",3,1600,"3 out of 4","Carpet Area","Vijaya Bank Colony -Bilekahalli, Bilekahalli","Bangalore","Semi-Furnished","Bachelors",3,"Contact Agent",180
+"2047","2022-06-04",1,900,"3 out of 4","Super Area","Vijayanagar","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",181
+"2054","2022-05-19",1,300,"2 out of 4","Super Area","Ragavendra Nagar","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",182
+"2058","2022-05-07",1,580,"Ground out of 1","Super Area","Kengeri","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",183
+"2099","2022-05-21",2,750,"2 out of 3","Carpet Area","Venkateshappa Layout-Kammanahalli, Kammanahalli","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",184
+"2100","2022-07-02",3,2000,"1 out of 2","Carpet Area","Rbi Colony-Jayanagar, Jayanagar","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",185
+"2112","2022-05-11",1,450,"2 out of 2","Super Area","Mathikere","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",186
+"2116","2022-06-27",3,1768,"8 out of 13","Super Area","Yelahanka","Bangalore","Semi-Furnished","Family",3,"Contact Agent",187
+"2117","2022-06-20",3,1600,"3 out of 5","Carpet Area","Hrbr Layout Block 2, Kalyan Nagar, Outer Ring Road","Bangalore","Semi-Furnished","Family",3,"Contact Agent",188
+"2118","2022-05-05",1,400,"2 out of 4","Super Area","C V Raman Nagar","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",189
+"2130","2022-05-05",3,1200,"Ground out of 2","Super Area","Basaveshwar Nagar","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",190
+"2131","2022-07-05",1,800,"1 out of 1","Super Area","Ramamurthy Nagar","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",191
+"2166","2022-06-16",3,1430,"2 out of 3","Super Area","Jp Nagar Phase 7, J P Nagar","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",192
+"2169","2022-04-29",2,1100,"Ground out of 2","Super Area","Konanakunte","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",193
+"2178","2022-04-30",2,850,"Ground out of 2","Super Area","Choodasandra","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",194
+"2191","2022-05-10",2,1600,"Ground out of 2","Super Area","Kodigehalli","Bangalore","Furnished","Bachelors/Family",3,"Contact Owner",195
+"2204","2022-07-06",2,1080,"Ground out of 2","Carpet Area","Bda Layout -Lingarajapuram","Bangalore","Semi-Furnished","Family",2,"Contact Owner",196
+"2229","2022-06-10",1,400,"2 out of 3","Super Area","Nagarbhavi","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",197
+"2231","2022-06-15",2,800,"1 out of 4","Super Area","Kengeri Hobli","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",198
+"2237","2022-06-18",4,4550,"3 out of 5","Super Area","Jakkur Plantation, Jakkuru, Bellary Road","Bangalore","Semi-Furnished","Family",5,"Contact Agent",199
+"2259","2022-05-14",2,1000,"1 out of 4","Carpet Area","Hosur Road","Bangalore","Semi-Furnished","Bachelors",2,"Contact Owner",200
+"2270","2022-07-04",2,600,"Ground out of 2","Super Area","K R Puram","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Owner",201
+"2281","2022-05-23",3,1660,"1 out of 3","Carpet Area","Doddathoguru, Electronic City","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",202
+"2284","2022-05-26",1,300,"1 out of 2","Carpet Area","Cooke Town, Cooke Town","Bangalore","Unfurnished","Bachelors",1,"Contact Owner",203
+"2290","2022-05-26",1,700,"7 out of 7","Carpet Area","Domlur, Domlur","Bangalore","Furnished","Bachelors/Family",1,"Contact Agent",204
+"2298","2022-05-23",1,350,"2 out of 3","Super Area","Btm Layout","Bangalore","Unfurnished","Bachelors/Family",1,"Contact Owner",205
+"2303","2022-06-29",1,700,"1 out of 5","Super Area","Gh society","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",206
+"2314","2022-06-23",1,600,"3 out of 4","Super Area","Hbr Layout","Bangalore","Furnished","Bachelors/Family",1,"Contact Owner",207
+"2319","2022-05-18",2,1150,"1 out of 4","Carpet Area","Electronic City","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",208
+"2325","2022-05-31",2,625,"1 out of 3","Carpet Area","Kadabagere","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",209
+"2346","2022-07-04",1,600,"4 out of 5","Carpet Area","Mahadevapura","Bangalore","Semi-Furnished","Bachelors/Family",1,"Contact Agent",210
+"2368","2022-07-06",3,1460,"6 out of 12","Carpet Area","Jakkur","Bangalore","Unfurnished","Bachelors",3,"Contact Agent",211
+"2377","2022-05-10",2,1800,"1 out of 3","Super Area","Hebbal Kempapura","Bangalore","Semi-Furnished","Bachelors/Family",2,"Contact Owner",212
+"2398","2022-06-05",2,450,"1 out of 4","Carpet Area","Uttam Nagar","Delhi","Unfurnished","Bachelors",1,"Contact Owner",213
+"2405","2022-06-27",2,100,"3 out of 3","Super Area","Rohini Sector 24","Delhi","Unfurnished","Bachelors",2,"Contact Owner",214
+"2422","2022-05-31",3,1670,"3 out of 4","Super Area","Model Town","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Owner",215
+"2424","2022-05-18",1,350,"4 out of 4","Carpet Area","Chhattarpur","Delhi","Semi-Furnished","Bachelors",1,"Contact Agent",216
+"2429","2022-05-10",2,60,"2 out of 2","Super Area","Najafgarh","Delhi","Unfurnished","Bachelors/Family",1,"Contact Owner",217
+"2440","2022-06-21",3,1250,"2 out of 4","Carpet Area","Chittaranjan Park Block B","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Agent",218
+"2455","2022-05-27",2,145,"1 out of 3","Super Area","Palam","Delhi","Unfurnished","Bachelors/Family",2,"Contact Owner",219
+"2459","2022-06-28",2,300,"3 out of 4","Carpet Area","Jhangir Puri","Delhi","Unfurnished","Bachelors/Family",1,"Contact Owner",220
+"2466","2022-07-02",1,550,"3 out of 4","Carpet Area","Lajpat Nagar 4","Delhi","Semi-Furnished","Bachelors",1,"Contact Agent",221
+"2481","2022-04-29",2,600,"2 out of 3","Carpet Area","Aya Nagar","Delhi","Semi-Furnished","Bachelors",2,"Contact Owner",222
+"2486","2022-06-12",1,200,"3 out of 4","Carpet Area","kst chattarpur Apartments","Delhi","Unfurnished","Bachelors",1,"Contact Agent",223
+"2490","2022-05-10",1,530,"Ground out of 3","Super Area","Palam Colony, Palam","Delhi","Unfurnished","Bachelors/Family",1,"Contact Owner",224
+"2494","2022-05-10",1,450,"1 out of 4","Super Area","Mehrauli","Delhi","Unfurnished","Bachelors/Family",1,"Contact Owner",225
+"2509","2022-06-17",1,200,"3 out of 3","Super Area","Kamla Nagar","Delhi","Furnished","Bachelors/Family",1,"Contact Owner",226
+"2512","2022-05-10",2,900,"2 out of 4","Super Area","Lajpat Nagar","Delhi","Unfurnished","Family",2,"Contact Owner",227
+"2516","2022-06-04",1,400,"2 out of 4","Carpet Area","Lajpat Nagar 4","Delhi","Unfurnished","Bachelors/Family",1,"Contact Agent",228
+"2531","2022-05-10",1,500,"Ground out of 3","Super Area","Dwarka Sector 23","Delhi","Semi-Furnished","Bachelors/Family",1,"Contact Owner",229
+"2557","2022-05-27",2,100,"Ground out of 3","Super Area","Rohini Sector 38","Delhi","Unfurnished","Bachelors/Family",2,"Contact Owner",230
+"2579","2022-05-01",2,75,"1 out of 3","Super Area","Green Park","Delhi","Unfurnished","Bachelors/Family",2,"Contact Owner",231
+"2582","2022-05-27",1,200,"2 out of 4","Carpet Area","kst chattarpur Apartments","Delhi","Unfurnished","Bachelors",1,"Contact Agent",232
+"2611","2022-06-18",3,2200,"Ground out of 2","Carpet Area","Vivek Vihar","Delhi","Semi-Furnished","Bachelors/Family",2,"Contact Agent",233
+"2612","2022-06-18",3,900,"3 out of 4","Carpet Area","Surajmal Vihar","Delhi","Semi-Furnished","Bachelors/Family",2,"Contact Agent",234
+"2615","2022-06-18",3,1800,"3 out of 4","Carpet Area","Gagan Vihar, Krishna Nagar","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Agent",235
+"2627","2022-04-29",2,100,"3 out of 4","Super Area","Janakpuri","Delhi","Unfurnished","Bachelors/Family",1,"Contact Owner",236
+"2642","2022-04-29",3,950,"Ground out of 3","Super Area","Rohini Sector 4","Delhi","Unfurnished","Bachelors/Family",2,"Contact Owner",237
+"2655","2022-04-29",1,450,"1 out of 3","Super Area","DS 19","Delhi","Unfurnished","Family",1,"Contact Owner",238
+"2659","2022-07-02",4,272,"Ground out of 4","Carpet Area","Model Town","Delhi","Furnished","Bachelors",3,"Contact Agent",239
+"2661","2022-05-27",2,50,"2 out of 4","Super Area","Nirankari Colony, Mukherjee Nagar","Delhi","Unfurnished","Bachelors/Family",2,"Contact Owner",240
+"2665","2022-06-18",3,1800,"2 out of 4","Carpet Area","Saini Enclave, Anand Vihar","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Agent",241
+"2666","2022-06-18",3,2000,"1 out of 4","Carpet Area","Vivek Vihar Phase 1","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Agent",242
+"2668","2022-07-04",4,2700,"2 out of 3","Carpet Area","AGCR Enclave, Anand Vihar","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Agent",243
+"2683","2022-06-18",3,1800,"2 out of 4","Carpet Area","Saini Enclave, Anand Vihar","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Agent",244
+"2686","2022-05-05",2,80,"1 out of 4","Super Area","Mayur Vihar Phase 1 Extension","Delhi","Semi-Furnished","Bachelors/Family",2,"Contact Owner",245
+"2696","2022-05-27",3,1800,"2 out of 4","Carpet Area","Saket","Delhi","Semi-Furnished","Bachelors",3,"Contact Agent",246
+"2699","2022-06-30",2,1400,"3 out of 4","Super Area","Dilshad Garden","Delhi","Unfurnished","Bachelors",1,"Contact Owner",247
+"2701","2022-05-16",1,650,"1 out of 4","Carpet Area","Mayur Vihar 1","Delhi","Semi-Furnished","Bachelors/Family",1,"Contact Agent",248
+"2708","2022-05-11",3,1600,"Ground out of 4","Carpet Area","East Of Kailash","Delhi","Furnished","Bachelors/Family",2,"Contact Agent",249
+"2727","2022-05-14",3,96,"2 out of 5","Super Area","Rohini Sector 11","Delhi","Unfurnished","Bachelors/Family",2,"Contact Owner",250
+"2785","2022-05-27",2,75,"1 out of 1","Carpet Area","Najafgarh","Delhi","Unfurnished","Bachelors/Family",1,"Contact Owner",251
+"2787","2022-05-19",2,900,"2 out of 4","Carpet Area","Malviya Nagar","Delhi","Semi-Furnished","Bachelors",2,"Contact Agent",252
+"2817","2022-05-10",2,900,"3 out of 4","Super Area","Surya Apartment pocket a11","Delhi","Unfurnished","Bachelors",2,"Contact Owner",253
+"2827","2022-05-14",3,1600,"3 out of 4","Super Area","Greater Kailash","Delhi","Semi-Furnished","Bachelors/Family",3,"Contact Owner",254
+"2836","2022-04-29",3,120,"4 out of 5","Super Area","Bhalswa","Delhi","Furnished","Bachelors/Family",3,"Contact Owner",255
+"2837","2022-06-20",1,650,"2 out of 4","Carpet Area","Saket","Delhi","Furnished","Bachelors",1,"Contact Agent",256
+"2838","2022-05-14",2,400,"2 out of 4","Carpet Area","kst chattarpur Apartments","Delhi","Unfurnished","Bachelors",1,"Contact Agent",257
+"2864","2022-04-29",2,50,"1 out of 2","Super Area","Dwarka Sector 8","Delhi","Unfurnished","Bachelors/Family",1,"Contact Owner",258
+"2865","2022-05-24",4,400,"Ground out of 4","Carpet Area","Sarvodaya Enclave","Delhi","Unfurnished","Bachelors/Family",4,"Contact Agent",259
+"2878","2022-06-30",2,100,"2 out of 4","Carpet Area","Shalimar bagh","Delhi","Semi-Furnished","Bachelors/Family",2,"Contact Agent",260
+"2892","2022-07-02",2,900,"Ground out of 4","Carpet Area","Hari Nagar","Delhi","Semi-Furnished","Bachelors/Family",1,"Contact Owner",261
+"2908","2022-06-24",1,450,"3 out of 4","Super Area","Manak Vihar, Anand Vihar","Delhi","Semi-Furnished","Bachelors",1,"Contact Owner",262
+"2916","2022-07-04",2,1800,"1 out of 2","Carpet Area","Naveen Shahdara, Shahdara","Delhi","Unfurnished","Bachelors",1,"Contact Owner",263
+"2930","2022-05-31",1,500,"2 out of 3","Super Area","Kalkaji","Delhi","Semi-Furnished","Bachelors/Family",1,"Contact Owner",264
+"2937","2022-06-06",1,50,"3 out of 4","Carpet Area","Mahavir Enclave Part 3","Delhi","Semi-Furnished","Bachelors",1,"Contact Owner",265
+"2948","2022-07-09",3,1200,"2 out of 4","Carpet Area","Patparganj","Delhi","Semi-Furnished","Bachelors",2,"Contact Agent",266
+"2955","2022-07-04",1,300,"Ground out of 4","Carpet Area","Laxmi Nagar","Delhi","Semi-Furnished","Bachelors/Family",1,"Contact Agent",267
+"2973","2022-06-08",3,900,"1 out of 3","Super Area","Narela","Delhi","Furnished","Bachelors/Family",3,"Contact Owner",268
+"2979","2022-05-21",1,100,"1 out of 1","Super Area","Shiva Enclave, Paschim Vihar","Delhi","Furnished","Bachelors/Family",1,"Contact Owner",269
+"2983","2022-06-13",2,1200,"3 out of 4","Super Area","Pitampura","Delhi","Semi-Furnished","Bachelors/Family",2,"Contact Owner",270
+"2994","2022-06-14",2,700,"1 out of 3","Super Area","Anakaputhur","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",271
+"3021","2022-06-28",2,700,"3 out of 4","Super Area","T Nagar","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",272
+"3032","2022-05-12",1,250,"Ground out of 5","Super Area","Adambakkam","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",273
+"3037","2022-05-16",1,500,"Ground out of 2","Super Area","Arumbakkam","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",274
+"3060","2022-07-06",2,875,"2 out of 2","Super Area","Madipakkam","Chennai","Semi-Furnished","Bachelors",2,"Contact Owner",275
+"3072","2022-05-20",2,600,"1 out of 2","Super Area","Abiramapuram","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",276
+"3074","2022-07-08",3,1600,"1 out of 2","Super Area","Raja Annamalai Puram","Chennai","Semi-Furnished","Bachelors/Family",3,"Contact Owner",277
+"3097","2022-07-08",3,1800,"1 out of 2","Carpet Area","Villivakkam, Jawaharlal Nehru Road","Chennai","Semi-Furnished","Bachelors",3,"Contact Owner",278
+"3108","2022-06-22",3,900,"1 out of 4","Super Area","Perambur","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",279
+"3111","2022-06-27",3,1600,"Ground out of 2","Carpet Area","Mathur","Chennai","Furnished","Bachelors/Family",3,"Contact Owner",280
+"3113","2022-07-05",3,1600,"2 out of 3","Carpet Area","Adyar, Sardar Patel Road","Chennai","Semi-Furnished","Bachelors",3,"Contact Agent",281
+"3120","2022-06-14",1,500,"Ground out of 3","Super Area","KK Nagar","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",282
+"3123","2022-07-10",3,1700,"7 out of 15","Carpet Area","Sholinganallur","Chennai","Furnished","Bachelors",3,"Contact Agent",283
+"3128","2022-07-10",2,1200,"2 out of 2","Carpet Area","Anna Nagar West","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",284
+"3133","2022-06-14",3,2300,"2 out of 4","Carpet Area","Gopalapuram","Chennai","Semi-Furnished","Bachelors",3,"Contact Agent",285
+"3145","2022-07-05",2,910,"Ground out of 1","Super Area","Mannivakkam","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",286
+"3158","2022-06-22",2,805,"1 out of 3","Super Area","Gopalapuram","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",287
+"3170","2022-07-04",2,1100,"Ground out of 1","Carpet Area","New Perungalathur","Chennai","Semi-Furnished","Family",1,"Contact Owner",288
+"3171","2022-05-12",2,800,"1 out of 3","Super Area","Thiruvanmiyur","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",289
+"3175","2022-06-10",2,600,"1 out of 2","Super Area","Vandalur","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",290
+"3178","2022-07-06",2,1100,"17 out of 20","Carpet Area","Old Mahabalipuram Road","Chennai","Semi-Furnished","Family",2,"Contact Agent",291
+"3188","2022-06-29",2,800,"2 out of 2","Super Area","Chitlapakkam","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",292
+"3189","2022-06-29",2,570,"Ground out of 2","Carpet Area","Perungalathur, Chennai Bypass Road","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",293
+"3190","2022-05-20",2,1150,"2 out of 4","Super Area","Raja Annamalai Puram","Chennai","Furnished","Bachelors/Family",2,"Contact Owner",294
+"3202","2022-06-29",2,1500,"Ground out of 1","Super Area","Porur","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",295
+"3203","2022-06-29",2,900,"1 out of 2","Super Area","Velachery","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",296
+"3212","2022-06-13",2,1000,"2 out of 2","Super Area","Maduravoyal","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",297
+"3233","2022-06-29",1,1300,"Ground out of 2","Super Area","Anna Nagar","Chennai","Furnished","Bachelors",2,"Contact Owner",298
+"3245","2022-05-23",1,450,"2 out of 3","Carpet Area","Mahindra World City","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",299
+"3251","2022-06-22",3,1725,"10 out of 14","Super Area","MRC Nagar","Chennai","Furnished","Bachelors/Family",2,"Contact Agent",300
+"3265","2022-07-04",3,1650,"1 out of 1","Carpet Area","Madipakkam","Chennai","Semi-Furnished","Bachelors",3,"Contact Owner",301
+"3278","2022-05-20",2,800,"1 out of 3","Super Area","Adambakkam","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",302
+"3281","2022-06-29",2,1000,"Ground out of 3","Super Area","Medavakkam","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",303
+"3282","2022-06-25",2,1000,"1 out of 3","Super Area","Adyar, Sardar Patel Road","Chennai","Furnished","Bachelors",2,"Contact Agent",304
+"3285","2022-06-29",2,1100,"1 out of 2","Carpet Area","Gopalapuram","Chennai","Unfurnished","Bachelors",2,"Contact Agent",305
+"3305","2022-07-08",2,800,"Ground out of 1","Carpet Area","Medavakkam","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",306
+"3307","2022-07-06",3,1225,"9 out of 18","Carpet Area","Koyambedu","Chennai","Semi-Furnished","Bachelors/Family",3,"Contact Agent",307
+"3310","2022-05-30",2,850,"2 out of 2","Super Area","Anakaputhur","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",308
+"3323","2022-07-06",3,1450,"1 out of 4","Carpet Area","Mylapore","Chennai","Unfurnished","Bachelors",2,"Contact Agent",309
+"3333","2022-07-06",2,1200,"3 out of 4","Carpet Area","Kasi Estate","Chennai","Unfurnished","Bachelors/Family",2,"Contact Agent",310
+"3345","2022-06-16",2,1050,"4 out of 4","Super Area","Baby Nagar Extention, Velachery","Chennai","Semi-Furnished","Family",2,"Contact Agent",311
+"3350","2022-07-10",3,1600,"15 out of 16","Carpet Area","Iyyappanthangal","Chennai","Semi-Furnished","Bachelors/Family",3,"Contact Agent",312
+"3357","2022-06-14",1,700,"Ground out of 2","Super Area","Thiruverkkadu","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",313
+"3365","2022-07-06",1,250,"2 out of 3","Super Area","Neelankarai, E Coast Road","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",314
+"3369","2022-05-19",2,700,"Ground out of 2","Carpet Area","Kelambakkam, Old Mahabalipuram Road","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",315
+"3373","2022-06-29",2,850,"1 out of 2","Carpet Area","Sembakkam","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",316
+"3382","2022-06-01",3,1530,"9 out of 13","Carpet Area","Padur, Old Mahabalipuram Road","Chennai","Semi-Furnished","Bachelors/Family",3,"Contact Owner",317
+"3384","2022-07-02",3,1095,"2 out of 2","Super Area","Madambakkam","Chennai","Furnished","Bachelors/Family",2,"Contact Owner",318
+"3385","2022-07-06",2,780,"5 out of 14","Carpet Area","Kalavakkam","Chennai","Unfurnished","Family",2,"Contact Owner",319
+"3397","2022-06-29",2,1000,"1 out of 3","Super Area","Varadharajapuram","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",320
+"3437","2022-07-10",2,1140,"2 out of 16","Carpet Area","Iyyappanthangal","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Agent",321
+"3441","2022-06-18",2,1100,"Ground out of 3","Super Area","Purasawalkam, PH Road","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",322
+"3448","2022-05-27",2,900,"1 out of 1","Carpet Area","Ambattur","Chennai","Unfurnished","Bachelors",2,"Contact Owner",323
+"3456","2022-07-06",1,500,"7 out of 11","Carpet Area","Pallavaram","Chennai","Furnished","Bachelors/Family",1,"Contact Agent",324
+"3490","2022-05-20",1,550,"2 out of 3","Super Area","Guindy","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",325
+"3497","2022-06-10",3,1200,"1 out of 3","Super Area","Velachery","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",326
+"3505","2022-07-10",4,2880,"9 out of 19","Super Area","Thoraipakkam","Chennai","Semi-Furnished","Bachelors",3,"Contact Agent",327
+"3508","2022-05-06",2,1100,"Ground out of 2","Super Area","Madipakkam","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",328
+"3510","2022-06-08",3,1975,"12 out of 18","Super Area","Egmore, PH Road","Chennai","Semi-Furnished","Family",3,"Contact Agent",329
+"3514","2022-05-06",3,1170,"Ground out of 3","Super Area","Teynampet","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",330
+"3518","2022-05-06",1,500,"Ground out of 3","Super Area","Thiruverkkadu","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",331
+"3531","2022-05-06",3,1000,"Ground out of 2","Super Area","Egmore, PH Road","Chennai","Semi-Furnished","Bachelors/Family",3,"Contact Owner",332
+"3534","2022-05-06",2,966,"1 out of 3","Super Area","Kolathur","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",333
+"3544","2022-05-25",2,700,"Ground out of 3","Super Area","Ashok Nagar","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",334
+"3552","2022-05-25",2,1000,"1 out of 5","Super Area","Mogappair East","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",335
+"3568","2022-05-19",3,1570,"Ground out of 2","Super Area","Selaiyur","Chennai","Semi-Furnished","Bachelors/Family",3,"Contact Owner",336
+"3582","2022-06-18",3,2792,"5 out of 9","Super Area","Kellys","Chennai","Furnished","Bachelors/Family",5,"Contact Owner",337
+"3588","2022-07-06",1,500,"1 out of 2","Super Area","Anna Nagar","Chennai","Furnished","Bachelors/Family",1,"Contact Owner",338
+"3599","2022-06-13",2,850,"1 out of 1","Super Area","Padapai","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",339
+"3602","2022-06-23",1,1900,"3 out of 4","Carpet Area","Kailasapuram-Mylapore","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",340
+"3608","2022-07-10",1,550,"9 out of 15","Carpet Area","Iyyappanthangal","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Agent",341
+"3618","2022-06-22",1,400,"2 out of 3","Super Area","Rani Anna Nagar","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",342
+"3646","2022-05-26",1,502,"1 out of 1","Super Area","T Nagar","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",343
+"3653","2022-05-20",2,950,"1 out of 2","Super Area","Neelankarai, E Coast Road","Chennai","Semi-Furnished","Family",1,"Contact Owner",344
+"3656","2022-05-29",2,1000,"3 out of 5","Super Area","Thalambur","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",345
+"3662","2022-06-06",1,400,"Ground out of 2","Super Area","Nanmangalam","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",346
+"3672","2022-06-03",1,450,"3 out of 4","Carpet Area","Kodambakkam","Chennai","Unfurnished","Bachelors",1,"Contact Owner",347
+"3677","2022-07-06",2,750,"1 out of 5","Carpet Area","Velachery","Chennai","Furnished","Family",2,"Contact Owner",348
+"3681","2022-06-18",2,700,"1 out of 3","Carpet Area","Tiruvottiyur","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",349
+"3695","2022-06-23",2,920,"Ground out of 1","Super Area","Ullagaram, Pallavaram-Thuraipakkam Road","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",350
+"3703","2022-06-14",4,2240,"Ground out of 3","Carpet Area","Anna Nagar","Chennai","Furnished","Bachelors/Family",4,"Contact Agent",351
+"3704","2022-05-25",1,500,"Ground out of 2","Super Area","Kovur","Chennai","Unfurnished","Bachelors/Family",1,"Contact Owner",352
+"3708","2022-05-30",2,1424,"2 out of 2","Super Area","kumari neo town","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",353
+"3714","2022-05-30",1,595,"1 out of 1","Super Area","Vengaivasal, Medavakkam","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",354
+"3720","2022-06-06",3,1100,"Ground out of 2","Super Area","Porur","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",355
+"3723","2022-05-20",2,800,"2 out of 4","Super Area","Mambalam West","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",356
+"3726","2022-05-01",2,650,"1 out of 2","Carpet Area","Pallikaranai","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",357
+"3744","2022-07-10",3,1200,"2 out of 5","Carpet Area","Madambakkam","Chennai","Unfurnished","Bachelors/Family",2,"Contact Agent",358
+"3749","2022-05-25",2,950,"Ground out of 3","Super Area","Iyyappanthangal","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",359
+"3750","2022-05-19",3,1610,"3 out of 14","Super Area","Vadapalani","Chennai","Semi-Furnished","Family",3,"Contact Agent",360
+"3772","2022-05-17",2,1000,"2 out of 4","Carpet Area","T Nagar","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Agent",361
+"3776","2022-05-01",2,700,"Ground out of 2","Super Area","Paddy field street,Perambur","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",362
+"3787","2022-06-22",2,1200,"2 out of 2","Carpet Area","Cmbt","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",363
+"3788","2022-05-19",3,1152,"10 out of 14","Carpet Area","Vadapalani","Chennai","Semi-Furnished","Family",3,"Contact Agent",364
+"3804","2022-06-22",2,1000,"1 out of 3","Super Area","Sholinganallur","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",365
+"3815","2022-06-29",2,650,"2 out of 3","Super Area","Arcot Road Virugambakkam","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",366
+"3817","2022-06-10",2,900,"3 out of 5","Carpet Area","besant nagar Chennai","Chennai","Unfurnished","Bachelors",2,"Contact Owner",367
+"3823","2022-06-02",1,400,"1 out of 3","Super Area","Injambakkam","Chennai","Semi-Furnished","Bachelors/Family",1,"Contact Owner",368
+"3834","2022-05-27",3,1383,"2 out of 4","Super Area","Perungalathur, Chennai Bypass Road","Chennai","Semi-Furnished","Bachelors",3,"Contact Owner",369
+"3835","2022-06-04",2,800,"Ground out of 1","Carpet Area","Guduvancheri","Chennai","Semi-Furnished","Bachelors",2,"Contact Owner",370
+"3849","2022-06-10",3,1500,"2 out of 4","Carpet Area","Perungudi","Chennai","Unfurnished","Bachelors",3,"Contact Agent",371
+"3859","2022-05-16",2,400,"1 out of 3","Super Area","Periyamet","Chennai","Unfurnished","Bachelors/Family",2,"Contact Owner",372
+"3866","2022-05-12",2,850,"Ground out of 4","Super Area","Velachery","Chennai","Semi-Furnished","Bachelors/Family",2,"Contact Owner",373
+"3872","2022-07-02",2,1250,"3 out of 7","Super Area","Nungambakkam","Chennai","Furnished","Bachelors/Family",2,"Contact Owner",374
+"3873","2022-05-16",2,1000,"Ground out of 2","Super Area","Velachery","Chennai","Unfurnished","Family",2,"Contact Owner",375
+"3882","2022-07-10",3,3200,"1 out of 5","Carpet Area","Himayath Nagar, NH 7","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Agent",376
+"3902","2022-05-12",3,1200,"2 out of 4","Super Area","Abids, NH 7","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",377
+"3903","2022-06-03",3,1350,"3 out of 4","Carpet Area","Gayatri Hills, Jubilee Hills","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",378
+"3910","2022-07-05",3,1500,"1 out of 1","Super Area","Alkapur Township, Manikonda, Outer Ring Road","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",379
+"3912","2022-05-06",2,990,"Ground out of 1","Super Area","Boduppal, NH 2 2","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",380
+"3914","2022-06-22",2,1200,"2 out of 4","Super Area","Bandlaguda Jagir","Hyderabad","Unfurnished","Bachelors/Family",2,"Contact Owner",381
+"3925","2022-05-10",2,200,"Ground out of 1","Carpet Area","Dammaiguda","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",382
+"3927","2022-04-30",4,1000,"15 out of 20","Super Area","Narsingi, Outer Ring Road","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",383
+"3941","2022-04-29",3,2000,"Upper Basement out of 3","Carpet Area","A 307 Blossom Heights","Hyderabad","Furnished","Bachelors",3,"Contact Owner",384
+"3949","2022-05-20",2,1100,"2 out of 4","Super Area","Boduppal, NH 2 2","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",385
+"3962","2022-07-08",2,1010,"5 out of 5","Carpet Area","ECIL","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",386
+"3963","2022-07-08",3,1850,"5 out of 5","Carpet Area","Patrika Nagar, Hitech City","Hyderabad","Furnished","Bachelors",3,"Contact Owner",387
+"3975","2022-05-06",1,650,"1 out of 3","Super Area","Banjara Hills, NH 9","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",388
+"4011","2022-05-25",2,900,"1 out of 3","Super Area","Santosh Nagar","Hyderabad","Unfurnished","Bachelors/Family",2,"Contact Owner",389
+"4013","2022-05-25",1,680,"Ground out of 3","Carpet Area","Bapu Nagar-Langar Houz","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",390
+"4014","2022-06-06",1,550,"2 out of 3","Super Area","Uppal, NH 2 2","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",391
+"4034","2022-06-25",2,1080,"3 out of 4","Super Area","Anupuram Colony","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",392
+"4035","2022-07-06",3,1955,"1 out of 19","Super Area","Kondapur","Hyderabad","Unfurnished","Bachelors",3,"Contact Agent",393
+"4051","2022-05-12",1,450,"Ground out of 3","Super Area","Somajiguda, NH 9","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",394
+"4085","2022-07-06",1,350,"2 out of 4","Super Area","Langar Houz","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",395
+"4087","2022-05-12",2,1200,"1 out of 6","Super Area","Vijay nagar colony m","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",396
+"4090","2022-07-06",3,1400,"2 out of 4","Super Area","Toli Chowki","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",397
+"4094","2022-06-09",3,1675,"5 out of 12","Super Area","Gachibowli","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",398
+"4101","2022-06-24",1,100,"3 out of 3","Carpet Area","in 1-71/1/a","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",399
+"4110","2022-05-28",3,1771,"2 out of 5","Super Area","Bandam Kommu","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",400
+"4125","2022-04-30",2,1248,"4 out of 5","Carpet Area","Kothapet","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",401
+"4146","2022-06-25",3,1800,"1 out of 3","Super Area","Prashanth hills","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",402
+"4160","2022-05-06",2,1150,"2 out of 5","Super Area","Nizampet","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",403
+"4175","2022-07-06",2,140,"2 out of 4","Super Area","Sivarampalli, Hyderabad Expressway","Hyderabad","Unfurnished","Bachelors/Family",2,"Contact Owner",404
+"4184","2022-06-10",3,1000,"1 out of 4","Carpet Area","OU Colony-Shaikpet","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",405
+"4186","2022-06-06",1,8000,"Ground out of 4","Super Area"," Beeramguda, Ramachandra Puram, NH 9","Hyderabad","Unfurnished","Bachelors/Family",10,"Contact Owner",406
+"4205","2022-06-29",3,1600,"4 out of 4","Carpet Area","Akkineni Homes Yousufguda","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",407
+"4227","2022-05-12",1,450,"Ground out of 1","Super Area","Hafeezpet, NH 9","Hyderabad","Unfurnished","Bachelors/Family",2,"Contact Owner",408
+"4228","2022-06-01",2,1000,"4 out of 5","Super Area","Somajiguda, NH 9","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",409
+"4233","2022-06-02",3,2000,"Ground out of 12","Carpet Area","Gachibowli","Hyderabad","Semi-Furnished","Family",3,"Contact Agent",410
+"4251","2022-06-28",2,650,"4 out of 4","Carpet Area","Namalagundu","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",411
+"4253","2022-06-28",3,1500,"1 out of 1","Super Area","Old Bowenpally","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",412
+"4259","2022-05-20",1,300,"2 out of 3","Super Area","Gachibowli","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",413
+"4269","2022-06-18",2,1100,"1 out of 7","Super Area","Upparpally, Hyderabad Expressway","Hyderabad","Furnished","Bachelors/Family",2,"Contact Owner",414
+"4310","2022-07-08",2,1200,"2 out of 25","Super Area","Nanakaramguda","Hyderabad","Furnished","Bachelors/Family",2,"Contact Owner",415
+"4341","2022-07-06",1,500,"1 out of 2","Super Area","RTC Cross Road","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",416
+"4357","2022-05-01",1,500,"1 out of 3","Super Area","Champapet, Koti","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",417
+"4378","2022-05-23",1,1050,"2 out of 3","Carpet Area","Banjara Hills, NH 9","Hyderabad","Furnished","Bachelors",1,"Contact Agent",418
+"4388","2022-06-25",2,1000,"5 out of 6","Super Area","Upperpally","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",419
+"4390","2022-07-02",3,1250,"2 out of 8","Super Area","Red Hills, Lakdikapul, NH 7","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",420
+"4394","2022-06-14",3,1265,"2 out of 5","Super Area","Pragathi Nagar, Kukatpally","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",421
+"4395","2022-04-29",1,700,"1 out of 3","Carpet Area","Panjagutta Colony","Hyderabad","Unfurnished","Bachelors",1,"Contact Owner",422
+"4397","2022-07-03",2,850,"Ground out of 2","Carpet Area","Srinivasa Colony, Secunderabad","Hyderabad","Semi-Furnished","Family",2,"Contact Owner",423
+"4402","2022-06-25",3,1100,"4 out of 10","Super Area","Rajendra Nagar, Outer Ring Road","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",424
+"4406","2022-07-07",2,1350,"1 out of 5","Carpet Area","Hitech City","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",425
+"4414","2022-05-09",3,1200,"2 out of 3","Super Area","Toli Chowki","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",426
+"4415","2022-05-31",3,1500,"4 out of 5","Carpet Area","KBR Laxmi Residency","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",427
+"4420","2022-07-08",2,1000,"1 out of 3","Super Area","Gouri Shankar Nagar Colony, Banjara Hills","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",428
+"4421","2022-05-20",2,175,"1 out of 3","Super Area","Old Malakpet, NH 9","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",429
+"4426","2022-07-10",4,3455,"12 out of 17","Super Area","Madhapur","Hyderabad","Semi-Furnished","Family",4,"Contact Agent",430
+"4432","2022-05-06",1,400,"2 out of 2","Super Area","Shamshabad","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",431
+"4435","2022-05-12",2,400,"Ground out of 2","Super Area","Old Bowenpally","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",432
+"4450","2022-05-16",2,900,"1 out of 3","Super Area","Ramanthapur, NH 2 2","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",433
+"4465","2022-06-22",2,1600,"1 out of 2","Super Area","Old Alwal","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",434
+"4474","2022-06-01",2,600,"2 out of 2","Super Area","Vanasthalipuram, NH 9","Hyderabad","Unfurnished","Bachelors/Family",2,"Contact Owner",435
+"4488","2022-06-04",2,1156,"Ground out of 2","Carpet Area","Beeramguda, Ramachandra Puram, NH 9","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",436
+"4510","2022-05-09",3,1800,"1 out of 5","Carpet Area","Raj Bhawan Road","Hyderabad","Furnished","Bachelors/Family",3,"Contact Owner",437
+"4515","2022-05-12",2,1060,"2 out of 5","Super Area","Dammaiguda","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",438
+"4516","2022-05-16",2,900,"Ground out of 2","Super Area","Uppal, NH 2 2","Hyderabad","Furnished","Bachelors/Family",1,"Contact Owner",439
+"4532","2022-05-25",1,800,"3 out of 4","Super Area","Yousufguda, NH 9","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",440
+"4534","2022-05-07",2,1350,"Ground out of 1","Super Area","Rampally","Hyderabad","Unfurnished","Bachelors/Family",2,"Contact Owner",441
+"4537","2022-07-05",3,1800,"1 out of 2","Carpet Area","Old Bowenpally","Hyderabad","Semi-Furnished","Family",3,"Contact Owner",442
+"4548","2022-05-12",2,650,"2 out of 3","Super Area","Balanagar","Hyderabad","Unfurnished","Family",2,"Contact Owner",443
+"4550","2022-05-12",1,300,"1 out of 3","Super Area","Khairatabad, NH 7","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",444
+"4553","2022-07-02",2,1125,"1 out of 2","Super Area","Gandhamguda, Bairagiguda","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",445
+"4571","2022-05-09",2,1200,"2 out of 4","Super Area","Srini kunj Anasuya Enclave, Lingampally, Kachiguda, Hyderabad","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",446
+"4587","2022-06-14",1,500,"2 out of 3","Super Area","Almasguda","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",447
+"4590","2022-07-02",2,200,"3 out of 3","Carpet Area","Puppalaguda","Hyderabad","Unfurnished","Family",2,"Contact Owner",448
+"4593","2022-06-22",3,1250,"1 out of 3","Super Area","Manikonda, Outer Ring Road","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",449
+"4596","2022-06-29",3,1960,"8 out of 20","Super Area","aparna sarovar grande","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Agent",450
+"4598","2022-06-29",3,1834,"15 out of 30","Super Area","Narsingi, Outer Ring Road","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Agent",451
+"4617","2022-06-26",3,225,"Ground out of 1","Carpet Area","Ragannaguda, Outer Ring Road","Hyderabad","Unfurnished","Bachelors/Family",3,"Contact Owner",452
+"4618","2022-07-06",1,550,"4 out of 6","Super Area","Qutub Shahi Tombs","Hyderabad","Furnished","Bachelors/Family",1,"Contact Owner",453
+"4620","2022-06-10",2,600,"1 out of 2","Super Area","Murad Nagar, Lal Darwaza, Falaknuma Road","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",454
+"4623","2022-06-29",2,1205,"3 out of 5","Super Area","Pocharam, Hyderabad near infosys","Hyderabad","Furnished","Bachelors/Family",2,"Contact Owner",455
+"4636","2022-06-20",4,2300,"4 out of 5","Carpet Area","Punjagutta X Roads","Hyderabad","Semi-Furnished","Bachelors/Family",4,"Contact Owner",456
+"4644","2022-07-06",2,770,"1 out of 4","Super Area","Kapra","Hyderabad","Semi-Furnished","Bachelors/Family",2,"Contact Owner",457
+"4645","2022-07-06",3,3200,"1 out of 3","Carpet Area","Kukatpally, NH 9","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Agent",458
+"4649","2022-07-06",6,4500,"1 out of 2","Super Area","Kakateeya Nagar, Secunderabad","Hyderabad","Semi-Furnished","Bachelors/Family",6,"Contact Owner",459
+"4651","2022-05-04",1,1000,"2 out of 5","Carpet Area","Manikonda, Outer Ring Road","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Owner",460
+"4661","2022-06-20",3,1800,"4 out of 5","Carpet Area","Mokila","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Agent",461
+"4662","2022-07-06",1,600,"1 out of 4","Carpet Area","Himayath Nagar, NH 7","Hyderabad","Semi-Furnished","Bachelors/Family",1,"Contact Agent",462
+"4664","2022-07-08",2,1100,"4 out of 5","Carpet Area","Chandanagar, NH 9","Hyderabad","Furnished","Bachelors",2,"Contact Owner",463
+"4682","2022-05-25",2,700,"3 out of 7","Super Area","Toli Chowki","Hyderabad","Unfurnished","Bachelors/Family",2,"Contact Owner",464
+"4686","2022-07-02",2,1125,"2 out of 3","Carpet Area","Allwyn Colony","Hyderabad","Unfurnished","Bachelors",2,"Contact Owner",465
+"4689","2022-07-02",2,1350,"8 out of 14","Super Area","Rajendra Nagar, Outer Ring Road","Hyderabad","Semi-Furnished","Bachelors",2,"Contact Owner",466
+"4690","2022-07-06",1,600,"2 out of 3","Super Area","Kukatpally, NH 9","Hyderabad","Unfurnished","Bachelors/Family",1,"Contact Owner",467
+"4692","2022-06-29",3,1100,"2 out of 5","Super Area","New Mallepally","Hyderabad","Semi-Furnished","Bachelors/Family",3,"Contact Owner",468

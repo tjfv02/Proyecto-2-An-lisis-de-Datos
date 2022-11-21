@@ -9,28 +9,155 @@ library(useful)
 library(dplyr)
 library(ggplot2)
 library(Metrics) #RMSE
+library(corrplot)
 ```
 
 ```{r}
-dataset <- read.csv('house_rent_result90.csv')
-summary(dataset)
-head(dataset)
+Odataset <- read.csv('house_rent_result90.csv')
+summary(Odataset)
+Odataset
+#Obtengo la media de la renta para calculos futuros
+datasetRentMean <- mean(Odataset$Rent)
 ```
+Limpieza de nulls
+```{r}
+colsNulls <-colnames(Odataset)[!complete.cases(t(Odataset))]
+colsNulls
+```
+#Cambios de datos categóricos
+#Furnishing.Status
+```{r}
+#Reviso las posibles opciones
+table(Odataset$Furnishing.Status)
+prop.table(table(Odataset$Furnishing.Status))
+
+#Se obtiene la resta de la media catalogizada - la media de las rentas
+FurnishMean <-Odataset%>%
+  group_by(Furnishing.Status)%>%
+  summarise(MeanFurnish = mean(Rent)-datasetRentMean)%>%
+  arrange(-MeanFurnish)
+FurnishMean
+```
+#Floor
+```{r}
+table(Odataset$Floor)
+prop.table(table(Odataset$Floor))
+
+FloorMean <-Odataset%>%
+  group_by(Floor)%>%
+  summarise(MeanFloor = mean(Rent))%>%
+  arrange(-MeanFloor)
+FloorMean
+```
+
+#Area.Type
+```{r}
+table(Odataset$Area.Type)
+prop.table(table(Odataset$Area.Type))
+
+AreaTMean <-Odataset%>%
+  group_by(Area.Type)%>%
+  summarise(MeanAreaT = mean(Rent))%>%
+  arrange(-MeanAreaT)
+AreaTMean
+```
+#Area.Locality
+```{r}
+table(Odataset$Area.Locality)
+prop.table(table(Odataset$Area.Locality))
+
+AreaLMean <-Odataset%>%
+  group_by(Area.Locality)%>%
+  summarise(MeanAreaL = mean(Rent))%>%
+  arrange(-MeanAreaL)
+AreaLMean
+```
+#City
+```{r}
+table(Odataset$City)
+prop.table(table(Odataset$City))
+
+CityMean <-Odataset%>%
+  group_by(City)%>%
+  summarise(MeanCity = mean(Rent))%>%
+  arrange(-MeanCity)
+CityMean
+```
+#Tenant.Preferred
+```{r}
+table(Odataset$Tenant.Preferred)
+prop.table(table(Odataset$Tenant.Preferred))
+
+TenantMean <-Odataset%>%
+  group_by(Tenant.Preferred)%>%
+  summarise( MeanTenant = mean(Rent))%>%
+  arrange(-MeanTenant)
+TenantMean
+```
+#Point.of.Contact
+```{r}
+table(Odataset$Point.of.Contact)
+prop.table(table(Odataset$Point.of.Contact))
+
+PoCMean <-Odataset%>%
+  group_by(Point.of.Contact)%>%
+  summarise(MeanPoC = mean(Rent))%>%
+  arrange(-MeanPoC)
+PoCMean
+```
+#Agregar las nuevas columnas y reemplazar las columnas anteriores
+```{r}
+#Furnishing.Status
+ dataset<- merge(Odataset, FurnishMean, by.x ="Furnishing.Status", by.y= "Furnishing.Status")
+ 
+#Floor
+dataset<-merge(dataset, FloorMean, by.x ="Floor", by.y= "Floor") 
+
+#Area.Type
+dataset<-merge(dataset, AreaTMean, by.x ="Area.Type", by.y= "Area.Type") 
+
+#Area.Locality
+dataset<-merge(dataset, AreaLMean, by.x ="Area.Locality", by.y= "Area.Locality")
+
+#City
+dataset<-merge(dataset, CityMean, by.x ="City", by.y= "City") 
+
+#Tenant.Preferred
+dataset<-merge(dataset, TenantMean, by.x ="Tenant.Preferred", by.y= "Tenant.Preferred")
+
+#Point.of.Contact
+dataset<-merge(dataset, PoCMean, by.x ="Point.of.Contact", by.y= "Point.of.Contact")
+
+#Eliminar las columnas correspondientes
+Col_borrar <- c("Furnishing.Status","Floor","Area.Type","Area.Locality","City","Tenant.Preferred","Point.of.Contact")
+dataset <- dataset[,!(names(dataset) %in% Col_borrar)]
+
+#Eliminar la columna de Fecha
+Col_borrar <-c("Posted.On")
+dataset <- dataset[,!(names(dataset) %in% Col_borrar)]
+dataset
+```
+
+#Revision de la correlación
+```{r}
+corrplot(cor(dataset),method="number",type="upper")
+```
+
 
 ```{r}
 set.seed(10)
 dataset$id <- 1:nrow(dataset) #agregar ID con la enumeración de la fila
 
 #Dividir la data en el 80% para el entrenamiento
-train <- dataset %>%
+dstrain <- dataset %>%
   dplyr::sample_frac(0.80)
 
 #El resto del dartaset se utiliza para el test
-test <- dataset %>%
-  dplyr::anti_join(train,by="id")
+dstest <- dataset %>%
+  dplyr::anti_join(dstrain,by="id")
 
-count(train)
-count(test)
+count(dstrain)
+count(dstest)
 ```
 
 # Experimentos
@@ -38,11 +165,289 @@ count(test)
 ### Experimento 1
 
 ```{r}
-experimento1 <- train %>%
-  lm(formula = Size~Rent)# Pruebas, realizar operaciones entre las columnas del                                dataset
+experimento1 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL)# Pruebas, realizar operaciones entre las columnas del dataset
 
-yhat <- predict(experimento1, test)
+yhat <- predict(experimento1, dstest)
 
-rmseExp1 <- rmse(yhat,test$Rent)
+rmseExp1 <- rmse(yhat,dstest$Rent)
 rmseExp1
+EXP1<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP1
+```
+#Experimento 2 - Se agrega la columna MeanFloor
+```{r}
+experimento2 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento2, dstest)
+
+rmseExp2 <- rmse(yhat,dstest$Rent)
+rmseExp2
+EXP2<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP2
+```
+
+#Experimento 3 - Se le agregan todas las columnas
+```{r}
+experimento3 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Size+Bathroom+MeanAreaT+MeanCity+MeanTenant+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento3, dstest)
+
+rmseExp3 <- rmse(yhat,dstest$Rent)
+rmseExp3
+EXP3<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP3
+```
+#Experimento 4 - Se le quita la columna MeanPoC
+```{r}
+experimento4 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Size+Bathroom+MeanAreaT+MeanCity+MeanTenant)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento4, dstest)
+
+rmseExp4 <- rmse(yhat,dstest$Rent)
+rmseExp4
+EXP4<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP4
+```
+#Experimento 5 - Se le quita la columna MeanTenant
+```{r}
+experimento5 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Size+Bathroom+MeanAreaT+MeanCity)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento5, dstest)
+
+rmseExp5 <- rmse(yhat,dstest$Rent)
+rmseExp5
+EXP5<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP5
+```
+#Experimento 6- Se le agrega la columna MeanPoc
+```{r}
+experimento6 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Size+Bathroom+MeanAreaT+MeanCity+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento6, dstest)
+
+rmseExp6 <- rmse(yhat,dstest$Rent)
+rmseExp6
+EXP6<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP6
+```
+#Experimento 7- Se elimina MeanCity
+```{r}
+experimento7 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Size+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento7, dstest)
+
+rmseExp7 <- rmse(yhat,dstest$Rent)
+rmseExp7
+EXP7<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP7
+```
+#Experimento 8- Se elimina MeanAreaT
+```{r}
+experimento8 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Size+Bathroom+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento8, dstest)
+
+rmseExp8 <- rmse(yhat,dstest$Rent)
+rmseExp8
+EXP8<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP8
+```
+#Experimento 9- Se agrega MeanAreaT y se elimina Bathroom
+```{r}
+experimento9 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Size+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento9, dstest)
+
+rmseExp9 <- rmse(yhat,dstest$Rent)
+rmseExp9
+EXP9<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP9
+```
+#Experimento 10 - Se agrega Bathroom y se elimina Size
+```{r}
+experimento10 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+BHK+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento10, dstest)
+
+rmseExp10 <- rmse(yhat,dstest$Rent)
+rmseExp10
+EXP10<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP10
+```
+#Experimento 11 - Se agrega Size y se elimina BHK
+```{r}
+experimento11 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento11, dstest)
+
+rmseExp11 <- rmse(yhat,dstest$Rent)
+rmseExp11
+EXP11<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP11
+```
+
+#Experimento 12 - Se elimina MeanFurnish
+```{r}
+experimento12 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+Size+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento12, dstest)
+
+rmseExp12 <- rmse(yhat,dstest$Rent)
+rmseExp12
+EXP12<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP12
+```
+#Experimento 13 - Se agrega MeanFurnish y se elimina MeanFloor
+```{r}
+experimento13 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFurnish+Size+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento13, dstest)
+
+rmseExp13 <- rmse(yhat,dstest$Rent)
+rmseExp13
+EXP13<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP13
+```
+#Experimento 14 - Se agrega MeanFloor y se elimina MeanAreaL
+```{r}
+experimento14 <- dstrain %>%
+  lm(formula = Rent~MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento14, dstest)
+
+rmseExp14 <- rmse(yhat,dstest$Rent)
+rmseExp14
+EXP14<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP14
+```
+
+#Experimento 15 - Se cambia Bathroom por MeanBathroom
+```{r}
+experimento15 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+MeanBathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento15, dstest)
+
+rmseExp15 <- rmse(yhat,dstest$Rent)
+rmseExp15
+EXP15<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP15
+```
+#Experimento 16 - Se elimina MeanPoc
+```{r}
+experimento16 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento16, dstest)
+
+rmseExp16 <- rmse(yhat,dstest$Rent)
+rmseExp16
+EXP16<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP16
+```
+#Experimento 17 - Se cambia la resta por solo la media
+```{r}
+experimento17 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT)# Pruebas, realizar operaciones entre las columnas del dataset
+
+yhat <- predict(experimento17, dstest)
+
+rmseExp17 <- rmse(yhat,dstest$Rent)
+rmseExp17
+EXP17<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
+EXP17
+```
+#Lectura y modificacion del csv para subir
+```{r}
+datasetPredict <- read.csv('house_rent_result10.csv')
+datasetPredict
+```
+
+
+
+```{r}
+#Furnishing.Status
+datasetPredict<- merge(datasetPredict, FurnishMean, by.x ="Furnishing.Status", by.y= "Furnishing.Status", all.x=TRUE) 
+
+#Floor
+datasetPredict<-merge(datasetPredict, FloorMean, by.x ="Floor", by.y= "Floor", all.x=TRUE) 
+#Area.Type
+datasetPredict<-merge(datasetPredict, AreaTMean, by.x ="Area.Type", by.y= "Area.Type", all.x=TRUE) 
+
+#Area.Locality
+datasetPredict<-merge(datasetPredict, AreaLMean, by.x ="Area.Locality", by.y= "Area.Locality", all.x=TRUE)
+
+#City
+datasetPredict<-merge(datasetPredict, CityMean, by.x ="City", by.y= "City", all.x=TRUE) 
+
+#Tenant.Preferred
+datasetPredict<-merge(datasetPredict, TenantMean, by.x ="Tenant.Preferred", by.y= "Tenant.Preferred", all.x=TRUE)
+
+#Point.of.Contact
+datasetPredict<-merge(datasetPredict, PoCMean, by.x ="Point.of.Contact", by.y= "Point.of.Contact", all.x=TRUE)
+datasetPredict
+
+#Eliminar las columnas correspondientes
+Col_borrar <- c("Furnishing.Status","Floor","Area.Type","Area.Locality","City","Tenant.Preferred","Point.of.Contact")
+datasetPredict <- datasetPredict[,!(names(datasetPredict) %in% Col_borrar)]
+
+#Eliminar la columna de Fecha
+Col_borrar <-c("Posted.On")
+datasetPredict <- datasetPredict[,!(names(datasetPredict) %in% Col_borrar)]
+datasetPredict
+```
+
+
+```{r}
+datasetPredict[is.na(datasetPredict)] <- datasetRentMean
+datasetPredict
+```
+#Realizacion de prediccion
+```{r}
+yhatp <-predict(experimento2, datasetPredict)
+yhatp
+```
+#Creacion del dataframe del resultado
+```{r}
+Resultado <- data.frame("Rownum"= datasetPredict$rownum, "Rent" = yhatp)
+Resultado
+```
+#Creacion del csv
+```{r}
+write.csv(Resultado,"ResultadoExp2.csv",row.names = FALSE)
+```
+
+#Creacion Csv Exp3
+```{r}
+yhatp <-predict(experimento3, datasetPredict)
+Resultado <- data.frame("Rownum"= datasetPredict$rownum, "Rent" = yhatp)
+Resultado
+write.csv(Resultado,"ResultadoExp3.csv",row.names = FALSE)
+```
+#Creacion Csv Exp11
+```{r}
+yhatp <-predict(experimento11, datasetPredict)
+Resultado <- data.frame("Rownum"= datasetPredict$rownum, "Rent" = yhatp)
+Resultado
+write.csv(Resultado,"ResultadoExp11.csv",row.names = FALSE)
+```
+```{r}
+experimento11 <- dstrain %>%
+  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
+experimento11
+yhat <- predict(experimento11, dstest)
+yhat
 ```
