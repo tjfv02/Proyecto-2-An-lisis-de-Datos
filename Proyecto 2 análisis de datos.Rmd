@@ -3,6 +3,12 @@ title: "Proyecto 2 Análisis de Datos | Grupo 3"
 output: p2_AD_G3
 ---
 
+# Proyecto 2 - Análisis de Datos
+
+Tito Fajardo  - 1201619
+
+Jorge García - 1220019
+
 ```{r}
 #Librerías
 library(useful)
@@ -19,13 +25,18 @@ Odataset
 #Obtengo la media de la renta para calculos futuros
 datasetRentMean <- mean(Odataset$Rent)
 ```
-#Limpieza de nulls
+
+## Limpieza de nulls
+
 ```{r}
 colsNulls <-colnames(Odataset)[!complete.cases(t(Odataset))]
 colsNulls
 ```
-#Cambios de datos categóricos
-#Furnishing.Status
+
+## Cambios de datos categóricos 
+
+### Furnishing.Status
+
 ```{r}
 #Reviso las posibles opciones
 table(Odataset$Furnishing.Status)
@@ -40,7 +51,9 @@ FurnishMean
 FurnM <- mean(FurnishMean$MeanFurnish)
 FurnM
 ```
-#Floor
+
+### Floor
+
 ```{r}
 table(Odataset$Floor)
 prop.table(table(Odataset$Floor))
@@ -54,7 +67,8 @@ FloorM <- mean(FloorMean$MeanFloor)
 FloorM
 ```
 
-#Area.Type
+### Area.Type
+
 ```{r}
 table(Odataset$Area.Type)
 prop.table(table(Odataset$Area.Type))
@@ -67,7 +81,9 @@ AreaTMean
 AreaTM <- mean(AreaTMean$MeanAreaT)
 AreaTM
 ```
-#Area.Locality
+
+### Area.Locality
+
 ```{r}
 table(Odataset$Area.Locality)
 prop.table(table(Odataset$Area.Locality))
@@ -80,7 +96,9 @@ AreaLMean
 AreaLM <- mean(AreaLMean$MeanAreaL)
 AreaLM
 ```
-#City
+
+### City
+
 ```{r}
 table(Odataset$City)
 prop.table(table(Odataset$City))
@@ -93,7 +111,9 @@ CityMean
 CityM <- mean(CityMean$MeanCity)
 CityM
 ```
-#Tenant.Preferred
+
+### Tenant.Preferred
+
 ```{r}
 table(Odataset$Tenant.Preferred)
 prop.table(table(Odataset$Tenant.Preferred))
@@ -106,7 +126,9 @@ TenM <- mean(TenantMean$MeanTenant)
 TenM
 TenantMean
 ```
-#Point.of.Contact
+
+### Point.of.Contact
+
 ```{r}
 table(Odataset$Point.of.Contact)
 prop.table(table(Odataset$Point.of.Contact))
@@ -119,7 +141,9 @@ PoCMean
 PoCM <- mean(PoCMean$MeanPoC)
 PoCM
 ```
-#Agregar las nuevas columnas y reemplazar las columnas anteriores
+
+## Agregar las nuevas columnas y reemplazar las columnas anteriores
+
 ```{r}
 #Furnishing.Status
 dataset<- merge(Odataset, FurnishMean, by.x ="Furnishing.Status", by.y= "Furnishing.Status")
@@ -152,12 +176,14 @@ dataset <- dataset[,!(names(dataset) %in% Col_borrar)]
 dataset
 ```
 
-#Revision de la correlación
+### Revision de la correlación
+
 ```{r}
 corrplot(cor(dataset),method="number",type="upper")
 ```
 
-#Se separan los datos para realizar entrenamiento y prueba
+### Se separan los datos para realizar entrenamiento y prueba
+
 ```{r}
 set.seed(10)
 dataset$id <- 1:nrow(dataset) #agregar ID con la enumeración de la fila
@@ -176,7 +202,10 @@ count(dstest)
 
 # Experimentos
 
-#Experimento 17 (Final)- Se cambiaron los nulls de las categorías inexistentes del archivo testing por el promedio de las medias de los de esa categoría
+## Experimento 17 (Final)
+
+### Se cambiaron los nulls de las categorías inexistentes del archivo testing por el promedio de las medias de los de esa categoría
+
 ```{r}
 experimento17 <- dstrain %>%
   lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT)# Pruebas, realizar operaciones entre las columnas del dataset
@@ -189,14 +218,15 @@ EXP17<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
 EXP17
 ```
 
-#Lectura del csv para subir
+### Lectura del csv para subir
+
 ```{r}
 datasetPredict <- read.csv('house_rent_result10.csv')
 datasetPredict
 ```
 
+### Modificacion del csv para subir
 
-#Modificacion del csv para subir
 ```{r}
 #Furnishing.Status
 datasetPredict<- merge(datasetPredict, FurnishMean, by.x ="Furnishing.Status", by.y= "Furnishing.Status", all.x=TRUE) 
@@ -229,7 +259,8 @@ datasetPredict <- datasetPredict[,!(names(datasetPredict) %in% Col_borrar)]
 datasetPredict
 ```
 
-#Se agregan las medias de las categorías a los datos Nulls luego de la unión
+### Se agregan las medias de las categorías a los datos Nulls luego de la unión
+
 ```{r}
 datasetPredict$MeanFurnish[is.na(datasetPredict$MeanFurnish)] <- FurnM
 datasetPredict$MeanFloor[is.na(datasetPredict$MeanFloor)] <- FloorM
@@ -240,17 +271,23 @@ datasetPredict$MeanTenant[is.na(datasetPredict$MeanTenant)] <- TenM
 datasetPredict$MeanPoC[is.na(datasetPredict$MeanPoC)] <- PoCM
 datasetPredict
 ```
-#Realizacion de prediccion
+
+### Realizacion de prediccion
+
 ```{r}
 yhatp <-predict(experimento17, datasetPredict)
 yhatp
 ```
-#Creacion del dataframe del resultado
+
+### Creacion del dataframe del resultado
+
 ```{r}
 Resultado <- data.frame("Rownum"= datasetPredict$rownum, "Rent" = yhatp)
 Resultado
 ```
-#Creacion Csv
+
+### Creacion Csv
+
 ```{r}
 write.csv(Resultado,"ResultadoExp17Final.csv",row.names = FALSE)
 ```
