@@ -19,7 +19,7 @@ Odataset
 #Obtengo la media de la renta para calculos futuros
 datasetRentMean <- mean(Odataset$Rent)
 ```
-Limpieza de nulls
+#Limpieza de nulls
 ```{r}
 colsNulls <-colnames(Odataset)[!complete.cases(t(Odataset))]
 colsNulls
@@ -34,9 +34,11 @@ prop.table(table(Odataset$Furnishing.Status))
 #Se obtiene la resta de la media catalogizada - la media de las rentas
 FurnishMean <-Odataset%>%
   group_by(Furnishing.Status)%>%
-  summarise(MeanFurnish = mean(Rent)-datasetRentMean)%>%
+  summarise(MeanFurnish = mean(Rent))%>%
   arrange(-MeanFurnish)
 FurnishMean
+FurnM <- mean(FurnishMean$MeanFurnish)
+FurnM
 ```
 #Floor
 ```{r}
@@ -48,6 +50,8 @@ FloorMean <-Odataset%>%
   summarise(MeanFloor = mean(Rent))%>%
   arrange(-MeanFloor)
 FloorMean
+FloorM <- mean(FloorMean$MeanFloor)
+FloorM
 ```
 
 #Area.Type
@@ -60,6 +64,8 @@ AreaTMean <-Odataset%>%
   summarise(MeanAreaT = mean(Rent))%>%
   arrange(-MeanAreaT)
 AreaTMean
+AreaTM <- mean(AreaTMean$MeanAreaT)
+AreaTM
 ```
 #Area.Locality
 ```{r}
@@ -71,6 +77,8 @@ AreaLMean <-Odataset%>%
   summarise(MeanAreaL = mean(Rent))%>%
   arrange(-MeanAreaL)
 AreaLMean
+AreaLM <- mean(AreaLMean$MeanAreaL)
+AreaLM
 ```
 #City
 ```{r}
@@ -82,6 +90,8 @@ CityMean <-Odataset%>%
   summarise(MeanCity = mean(Rent))%>%
   arrange(-MeanCity)
 CityMean
+CityM <- mean(CityMean$MeanCity)
+CityM
 ```
 #Tenant.Preferred
 ```{r}
@@ -92,6 +102,8 @@ TenantMean <-Odataset%>%
   group_by(Tenant.Preferred)%>%
   summarise( MeanTenant = mean(Rent))%>%
   arrange(-MeanTenant)
+TenM <- mean(TenantMean$MeanTenant)
+TenM
 TenantMean
 ```
 #Point.of.Contact
@@ -104,11 +116,13 @@ PoCMean <-Odataset%>%
   summarise(MeanPoC = mean(Rent))%>%
   arrange(-MeanPoC)
 PoCMean
+PoCM <- mean(PoCMean$MeanPoC)
+PoCM
 ```
 #Agregar las nuevas columnas y reemplazar las columnas anteriores
 ```{r}
 #Furnishing.Status
- dataset<- merge(Odataset, FurnishMean, by.x ="Furnishing.Status", by.y= "Furnishing.Status")
+dataset<- merge(Odataset, FurnishMean, by.x ="Furnishing.Status", by.y= "Furnishing.Status")
  
 #Floor
 dataset<-merge(dataset, FloorMean, by.x ="Floor", by.y= "Floor") 
@@ -358,7 +372,7 @@ rmseExp16
 EXP16<- data.frame("Rownum"= dstest$X, "RentP" = yhat, "Rent"=dstest$Rent)
 EXP16
 ```
-#Experimento 17 - Se cambia la resta por solo la media
+#Experimento 17 - Se cambiaron los nulls de las categorías inexistentes del archivo testing por el promedio de las medias de los de esa categoría
 ```{r}
 experimento17 <- dstrain %>%
   lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT)# Pruebas, realizar operaciones entre las columnas del dataset
@@ -412,12 +426,18 @@ datasetPredict
 
 
 ```{r}
-datasetPredict[is.na(datasetPredict)] <- datasetRentMean
+datasetPredict$MeanFurnish[is.na(datasetPredict$MeanFurnish)] <- FurnM
+datasetPredict$MeanFloor[is.na(datasetPredict$MeanFloor)] <- FloorM
+datasetPredict$MeanAreaT[is.na(datasetPredict$MeanAreaT)] <- AreaTM
+datasetPredict$MeanAreaL[is.na(datasetPredict$MeanAreaL)] <- AreaLM
+datasetPredict$MeanCity[is.na(datasetPredict$MeanCity)] <- CityM
+datasetPredict$MeanTenant[is.na(datasetPredict$MeanTenant)] <- TenM
+datasetPredict$MeanPoC[is.na(datasetPredict$MeanPoC)] <- PoCM
 datasetPredict
 ```
 #Realizacion de prediccion
 ```{r}
-yhatp <-predict(experimento2, datasetPredict)
+yhatp <-predict(experimento16, datasetPredict)
 yhatp
 ```
 #Creacion del dataframe del resultado
@@ -425,29 +445,10 @@ yhatp
 Resultado <- data.frame("Rownum"= datasetPredict$rownum, "Rent" = yhatp)
 Resultado
 ```
-#Creacion del csv
+#Creacion Csv
 ```{r}
-write.csv(Resultado,"ResultadoExp2.csv",row.names = FALSE)
-```
-
-#Creacion Csv Exp3
-```{r}
-yhatp <-predict(experimento3, datasetPredict)
+yhatp <-predict(experimento16, datasetPredict)
 Resultado <- data.frame("Rownum"= datasetPredict$rownum, "Rent" = yhatp)
 Resultado
-write.csv(Resultado,"ResultadoExp3.csv",row.names = FALSE)
-```
-#Creacion Csv Exp11
-```{r}
-yhatp <-predict(experimento11, datasetPredict)
-Resultado <- data.frame("Rownum"= datasetPredict$rownum, "Rent" = yhatp)
-Resultado
-write.csv(Resultado,"ResultadoExp11.csv",row.names = FALSE)
-```
-```{r}
-experimento11 <- dstrain %>%
-  lm(formula = Rent~MeanAreaL+MeanFloor+MeanFurnish+Size+Bathroom+MeanAreaT+MeanPoC)# Pruebas, realizar operaciones entre las columnas del dataset
-experimento11
-yhat <- predict(experimento11, dstest)
-yhat
+write.csv(Resultado,"ResultadoExp17.csv",row.names = FALSE)
 ```
